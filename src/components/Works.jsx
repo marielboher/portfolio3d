@@ -6,10 +6,10 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import PropTypes from 'prop-types';
+import {BsArrowUpRight} from "react-icons/bs";
 
 
-const ProyectCard = ({index, name, descriptiion, tags, image, source_code_link}) => {
+const ProyectCard = ({index, name, descriptiion, tags, image, source_code_link, source_website_link}) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -54,25 +54,18 @@ const ProyectCard = ({index, name, descriptiion, tags, image, source_code_link})
             >
               #{tag.name}
             </p>
+           
           ))}
+           <div className='flex ml-20 cursor-pointer' 
+           onClick={() => {window.open(source_website_link, "_blank")}}>
+              <BsArrowUpRight/>
+            </div>
         </div>
       </Tilt>
     </motion.div>
   );
 };
 
-ProyectCard.propTypes = {
-  index: PropTypes.number.isRequired,
-  name: PropTypes.string.isRequired,
-  tags: PropTypes.arrayOf(
-    PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      color: PropTypes.string.isRequired,
-    })
-  ).isRequired,
-  image: PropTypes.string.isRequired,
-  source_code_link: PropTypes.string.isRequired,
-};
 
 const Works = () => {
   return (

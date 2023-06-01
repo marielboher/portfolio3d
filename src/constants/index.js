@@ -11,13 +11,9 @@ import {
     nodejs,
     mongodb,
     git,
-    meta,
-    starbucks,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    proyectoFinalReact,
+    ExpenseTracker
   } from "../assets";
   
   export const navLinks = [
@@ -45,11 +41,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Javascript Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Node js Developer",
       icon: creator,
     },
   ];
@@ -96,97 +92,67 @@ import {
   const experiences = [
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      icon: reactjs,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Studying and working with projects in React has been an enriching and exciting experience in my career as a developer. This library has allowed me to build dynamic, responsive and high-performance web applications, giving users an exceptional experience.",
+        "The knowledge gained from studying React and developing apps with it has given me a solid foundation for tackling more complex web development challenges." ,
+        "I'm excited to continue learning and exploring new possibilities with React and its ever-evolving ecosystems.",
       ],
     },
    
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      icon: web,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "During my learning process, I have focused on gaining a solid understanding of the key technologies used in modern web development.",
+        "One of the most exciting and challenging aspects of web development is creating attractive and highly interactive user interfaces. I have worked with technologies such as HTML, CSS and JavaScript to build intuitive and responsive interfaces, giving users a pleasant and immersive experience.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Javascript Developer",
+      icon: javascript,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "JavaScript proficiency has been a turning point in my career as a web developer. This versatile and powerful language has powered the magic of web development, allowing me to create compelling and functional user experiences.",
       ],
     },
-  ];
-  
-  const testimonials = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+      title: "Node.js Developer",
+      icon: nodejs,
+      iconBg: "#E6DEDD",
+      points: [
+        "In my constant search for growth and excellence in the field of web development, I am in a training process as a backend developer. I am happy to share my interest and mastery advances in Node.js and related technologies such as Express and MongoDB to drive efficient and scalable application development.",
+      ]
+    }
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Dakota Home",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Ecommerce created with react and firebase.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: proyectoFinalReact,
+      source_code_link: "https://github.com/marielboher/proyectoFinalReact",
+      source_website_link: "https://dakota-home.vercel.app/"
     },
     {
-      name: "Job IT",
+      name: "Expense tracker",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -195,16 +161,17 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "victory",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: ExpenseTracker,
+      source_code_link: "https://github.com/marielboher/income-expenses.git",
+      source_website_link: "https://income-expenses-blush.vercel.app/"
     },
     {
       name: "Trip Guide",
@@ -224,9 +191,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/marielboher/income-expenses.git",
+      web: "https://github.com/"
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
