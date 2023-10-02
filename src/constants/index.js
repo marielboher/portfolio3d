@@ -152,7 +152,7 @@ import {
       source_website_link: "https://dakota-home.vercel.app/"
     },
     {
-      name: "Expense tracker",
+      name: "Uvi",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -161,29 +161,29 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "victory",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "emaill.js",
           color: "pink-text-gradient",
         },
       ],
       image: ExpenseTracker,
-      source_code_link: "https://github.com/marielboher/income-expenses.git",
-      source_website_link: "https://income-expenses-blush.vercel.app/"
+      source_code_link: "https://github.com/marielboher/Uvi.git",
+      source_website_link: "https://uvi-bay.vercel.app/"
     },
     {
-      name: "Trip Guide",
+      name: "Informative Blog ",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "figma desing",
           color: "green-text-gradient",
         },
         {
@@ -191,8 +191,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      source_code_link: "https://github.com/marielboher/income-expenses.git",
-      web: "https://github.com/"
+      source_code_link: "https://github.com/marinapamparas/3D-Computacion.git",
+      source_website_link: "https://3dcomputacion.vercel.app/"
     },
   ];
   
