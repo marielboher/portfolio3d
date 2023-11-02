@@ -20,7 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import ExpenseTracker from "./exprenseTracker.gif";
+import threadsApp from "./threadsApp.gif"
+import computacion from "./3Dcomputacion.gif"
 
 
 import proyectoFinalReact from "./proyectoFinalReact.gif";
@@ -48,5 +49,6 @@ export {
   typescript,
   threejs,
   proyectoFinalReact,
-  ExpenseTracker
+  threadsApp,
+  computacion
 };

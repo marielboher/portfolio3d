@@ -13,7 +13,8 @@ import {
     git,
     threejs,
     proyectoFinalReact,
-    ExpenseTracker
+    threadsApp,
+    computacion
   } from "../assets";
   
   export const navLinks = [
@@ -123,12 +124,34 @@ import {
       icon: nodejs,
       iconBg: "#E6DEDD",
       points: [
-        "In my constant search for growth and excellence in the field of web development, I am in a training process as a backend developer. I am happy to share my interest and mastery advances in Node.js and related technologies such as Express and MongoDB to drive efficient and scalable application development.",
+        "In my constant search for growth and excellence in the web development field, I have acquired solid knowledge as a backend developer. I am pleased to share my interest and progress in mastering Node.js and related technologies such as Express and MongoDB to drive the development of efficient and scalable applications.",
       ]
     }
   ];
   
   const projects = [
+    {
+      name: "Threads App",
+      description:
+        "Clone of threads",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Next.js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: threadsApp,
+      source_code_link: "https://github.com/marielboher/threads_app.git",
+      source_website_link: "https://threads-app-marielboher.vercel.app/"
+    },
     {
       name: "Dakota Home",
       description:
@@ -151,28 +174,7 @@ import {
       source_code_link: "https://github.com/marielboher/proyectoFinalReact",
       source_website_link: "https://dakota-home.vercel.app/"
     },
-    {
-      name: "Uvi",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "firebase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "emaill.js",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: ExpenseTracker,
-      source_code_link: "https://github.com/marielboher/Uvi.git",
-      source_website_link: "https://uvi-bay.vercel.app/"
-    },
+    
     {
       name: "Informative Blog ",
       description:
@@ -191,6 +193,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
+      image: computacion,
       source_code_link: "https://github.com/marinapamparas/3D-Computacion.git",
       source_website_link: "https://3dcomputacion.vercel.app/"
     },
